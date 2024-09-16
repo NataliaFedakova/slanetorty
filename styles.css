@@ -450,13 +450,13 @@ footer {
 /* For very small screens (mobile) */
 @media (max-width: 480px) {
     .hero h1 {
-        font-size: 2rem; /* Further reduce the heading */
+        font-size: 2.3rem; /* Further reduce the heading */
     }
     .hero p {
         font-size: 0.9rem; /* Further reduce paragraph size */
     }
     .hero {
         padding-bottom: 300px; /* Adjust padding even more */
-        background-image: url('mobil.jpg') !important ;
+        background-image: url('mobil1.jpg') !important ;
     }
 }
