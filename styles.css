@@ -353,7 +353,8 @@ footer {
 }
 
 @media (max-width: 768px) {
-    header {
+   
+     header {
         padding: 10px 10px;
     }
     
@@ -431,11 +432,7 @@ footer {
         max-width: 100%;
         margin-top: 20px;
     }
-}
-
-
-/* For smaller screens */
-@media (max-width: 768px) {
+    
     .hero h1 {
         font-size: 2.5rem; /* Reduce the size of the heading */
     }
@@ -444,7 +441,10 @@ footer {
     }
     .hero {
         padding-bottom: 220px; /* Adjust padding for smaller screens */
-    }
+        background-image: url('2.jpg');
+    } 
+
+
 }
 
 /* For very small screens (mobile) */
@@ -457,5 +457,6 @@ footer {
     }
     .hero {
         padding-bottom: 300px; /* Adjust padding even more */
+        background-image: url('Dizajn\ bez\ názvu\ \(1\).jpg') !important ;
     }
 }
